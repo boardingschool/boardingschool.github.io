@@ -1704,6 +1704,7 @@
 
 	.row > section, .row > article {
 		margin-bottom: 0;
+		text-align: center;
 	}
 
 	header {
@@ -2106,6 +2107,39 @@
 			header .icon.circled {
 				margin: 0 0 2em 0;
 			}
+
+		.icon.major {
+			background: #272833;
+			border-radius: 100%;
+			cursor: default;
+			display: inline-block;
+			height: 6em;
+			line-height: 6em;
+			margin: 0 0 2em 0;
+			text-align: center;
+			width: 6em;
+		}
+			.icon.major:before {
+				font-size: 2.25em;
+			}
+
+			.icon.major.alt {
+				text-decoration: none;
+			}
+
+				.icon.major.alt:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				.icon.major.alt:before {
+					color: #272833 !important;
+					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+				}
 
 /* Wrapper */
 
